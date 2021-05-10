@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://AnantSharma94.github.io/react-assignment-1",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "jest",
     "start": "webpack-dev-server --mode development --watch --open --hot",
     "build": "webpack --mode production"
